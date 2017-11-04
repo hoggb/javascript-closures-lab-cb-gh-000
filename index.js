@@ -13,3 +13,4 @@ function bumpCounter(){
 
   return {addBump, getBumps}
 }
+
