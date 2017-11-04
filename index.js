@@ -1,16 +1,16 @@
 
 function bumpCounter(){
-  var counter = 0
+  var counter = 0;
 
   function addBump(){
-    counter++
+    counter++;
   }
 
   function getBumps(){
-    return counter
+    return counter;
   }
 
-  return {addBump, getBumps}
+  return {addBump, getBumps};
 };
 
 function createAnimal(animalType){
