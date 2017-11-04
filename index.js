@@ -11,7 +11,7 @@ function bumpCounter(){
     return counter
   }
 
-  return {addBump, getBumps}
+  return {addBump, getBumps};
 }
 
 function createAnimal(animalType){
